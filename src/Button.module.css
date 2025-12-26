@@ -1,0 +1,12 @@
+.button {
+  padding: 10px 20px;
+  background: #f00;
+  color: #fff;
+}
+
+
+/* ハイフンを使わずキャメルケースを使うこと */
+.buttonInner {
+  padding: 20px;
+  background: blue;
+}

@@ -1,3 +1,5 @@
+import styles from "./Button.module.css";
+
 // 親コンポーネントから子コンポーネントへ値を渡す仕組み
 // 属性や子要素、イベントなどを親コンポーネントから渡せる
 function Button(props) {
@@ -10,7 +12,7 @@ function Button(props) {
   // returnの中でHTMLを書く
   return (
     // iやspanタグはbuttonの子要素のため空のフラグメントは不要
-    <button type={type} disabled={disabled} onClick={onClick}>
+    <button className={styles.buttonInner} type={type} disabled={disabled} onClick={onClick}>
       <i>icon</i>
       {children}
     </button>
