@@ -1,5 +1,5 @@
 import './App.css'
-import Button from './Button'
+import Button from './components/Button/Button'
 
 function App() {
   // 関数を定義
