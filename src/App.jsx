@@ -1,6 +1,7 @@
 import {useState} from "react"
 import './App.css'
 import Button from './components/Button/Button'
+import Display from './components/Display/Display'
 
 function App() {
   // 状態を持たせたい変数とそれを更新する関数を定義
@@ -18,8 +19,9 @@ function App() {
       <h1>Hello world</h1>
       {/* 値の場合は{}が必要 */}
       <Button type="submit" disabled={false} onClick={handleClick}>
-        カウント：{count}
+        ボタン
       </Button>
+      <Display count={count} />
     </>
   )
 }
