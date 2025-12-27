@@ -1,8 +1,6 @@
-# React + Vite
+# React基礎勉強
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 参考リンク
 
-Currently, two official plugins are available:
+- [【2025年最新】世界一簡単なReact講座・JavaScript初心者は必見！クイズアプリを作って学ぼう](https://youtu.be/TgU-FT2WdS4?si=mBA64ynFgxQQ7kUC)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
